@@ -1,0 +1,81 @@
+class Temp
+   main()
+      // Declarations
+         num temperatureInF
+         num temperatureInC
+      output “Enter the temperature in F”
+      input temperatureInF
+      temperatureInC = (temperatureInF - 32) * .5555
+      output temperatureInC
+   return
+end class
+
+
+
+class Wristband
+	main()
+		// Declarations
+		   num age
+		output “What is your age?”
+		input age 
+if age  21 then
+  		   output “You get a wristband”
+endif
+			return
+		endClass
+
+
+
+class Application
+	main()
+		// Declarations
+		   num priceOfItem
+		   num shippingCost 
+		   num totalPrice
+		output “What is the price of the item?”
+		input priceOfItem
+		if priceOfItem  $100 then
+		   shippingCost = 0
+		else
+		   shippingCost = priceOfItem * .02
+		   totalPrice = priceOfItem + shippingCost
+		endif
+		output name, totalPrice
+	return
+endClass
+
+
+
+class Program
+	main()
+		// Declarations
+		   num birthMonth 
+		output “Please enter your birth month [1 – 12]”
+		input birthMonth
+		if birthMonth  1 then AND birthMonth  12 then
+		   output “Your birthnumber is: input ”
+		else
+		   output “You entered an incorrect month value: input”
+		endif
+	return
+endClass
+
+
+
+class
+	main()
+		// Declarations
+		   num party
+		output “What is your political party affiliation?”
+		input party
+		if party = democrat then
+		   output “You get a Democratic Donkey.” 
+		else
+		if party = republican then
+		   output “You get a Republican Elephant.”
+		else
+				if party = independent then
+				   output “You get an Independent Man.”
+				endif
+	return
+endClass 
