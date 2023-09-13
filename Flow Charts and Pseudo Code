@@ -1,0 +1,67 @@
+class TaxCalculator
+main()
+	// Declarations
+		    num price
+		    num salesTax
+		    num TAX_RATE = .05
+		output “Enter the item price.”
+		input price
+		salesTax = price * TAX_RATE
+		output salesTax
+			return
+		endClass
+
+
+class AreaCalculations
+	main()
+		// Declarations
+		   num height
+   num width
+   num area
+		output "Enter height in ft”
+input height
+		output "Enter width in ft”
+		input width
+		area = height * width
+		output area
+	return
+endClass
+
+
+
+class MaitenanceCosts
+main()
+// Declarations
+		    num winter
+		    num fall
+		    num spring
+		    num summer
+		    num totalCosts
+		output “Enter the cost for winter”
+		input winter
+output “Enter the cost for fall”
+input fall
+output “Enter the cost for spring”
+input spring
+output “Enter the cost for summer”
+input summer
+				totalCosts = winter + fall + spring + Summer
+		output totalCosts
+return
+endClass
+
+
+class Subtraction
+main()
+// Declarations
+	   num difference
+	   num minuend
+	   num subtrahend
+output “Enter minuend”
+input minuend
+output “Enter subtrahend”
+input subtrahend
+difference = minuend – subtrahend
+output difference
+return
+endClass
